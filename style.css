@@ -142,13 +142,13 @@ input[type="checkbox"] {
 }
 
 #contact{
-    font-size: 2rem;
     margin: 50px;
 }
 
 #contact a{
     text-decoration: none;
     color: #ff7f50;
+    font-size: 2rem;
 }
 
 #contact a:hover {
