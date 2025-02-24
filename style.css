@@ -1,0 +1,210 @@
+body{
+    margin: 15px;
+    background-color: rgb(251, 250, 248);
+    text-align: center;
+    font-family: poppins;
+    justify-content: center;
+    align-items: center;
+
+}
+
+nav{
+    text-align: center;
+    display: inline-block;
+    padding: 2px;
+    text-decoration: none;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    text-align: center;
+    
+}
+
+nav li{
+    padding: 20px;
+    font-size: 1.5rem;
+    color: white;
+}
+
+img{
+    width: 30%;
+}
+
+#logo{
+    margin-top: 50px;
+    width: 500px;
+}
+
+section{
+    display: flex;
+}
+
+#promotion{
+    width: 300px;
+}
+
+#promotion:hover{
+    width: 500px;
+}
+
+article{
+    flex: 1;
+    margin: 5px;
+}
+
+footer{
+    display: flex;
+    background-color: #ff7f50;
+    height: 100px;
+}
+
+footer div{
+    margin-top: 2.5%;
+    flex: 1;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(213, 132, 10);
+}
+
+a:hover{
+    color: rgb(207, 88, 32);
+}
+
+#booking {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 700px;
+    margin-left: 25%; 
+    margin-top: 30px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: #333;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.booking_box {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: 0.3s ease-in-out;
+}
+
+.booking_box:focus {
+    border-color: #ff7f50;
+    box-shadow: 0px 0px 5px rgba(255, 127, 80, 0.5);
+    border-width: 3px;
+}
+
+input[type="checkbox"] {
+    margin-top: 10px;
+    accent-color: #ff7f50;
+    font-size: 1.5rem;
+    transform: scale(1.2);
+}
+
+#book a{
+    text-decoration: none;
+    color: white;
+}
+#book {
+    background: #ff7f50;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#book:hover {
+    background: #e76b3c;
+}
+
+#contact{
+    font-size: 2rem;
+    margin: 50px;
+}
+
+#contact a{
+    text-decoration: none;
+    color: #ff7f50;
+}
+
+#contact a:hover {
+    color: rgb(195, 87, 24);
+}
+header {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+header img{
+    max-width: 100%;
+}
+/*media Query for mobile devices */
+@media screen and (max-width: 768px) {
+    /* NAVBAR */
+    nav ul {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    nav li {
+        padding: 10px;
+        font-size: 1rem;
+    }
+
+    /* FORMULAIRE */
+    #booking {
+        width: 95%;
+        padding: 20px;
+        margin: 0;
+    }
+
+    .booking_box {
+        font-size: 14px;
+        padding: 10px;
+       
+    }
+
+    #book {
+        font-size: 14px;
+        padding: 10px;
+        
+    }
+    /*HEADER*/
+    header {
+    display: flex;
+    text-align: center;
+    padding :0;
+    } 
+    header img{
+        flex: 1;
+    } 
+}
+   
